@@ -1,0 +1,46 @@
+<div class="box">
+
+                    <i class="fas fa-times"></i>
+                    <img src="image/menu-1.png" alt="">
+                    <div class="content">
+                        <h3>Veggie tagilatelle bolognese</h3>
+                        <span>quantity : </span>
+                        <input type="number" name="" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $20 </span>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <i class="fas fa-times"></i>
+                    <img src="image/menu-2.png" alt="">
+                    <div class="content">
+                        <h3>Veggie tagilatelle bolognese</h3>
+                        <span>quantity : </span>
+                        <input type="number" name="" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $20 </span>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <i class="fas fa-times"></i>
+                    <img src="image/menu-3.png" alt="">
+                    <div class="content">
+                        <h3>delicious food</h3>
+                        <span>quantity : </span>
+                        <input type="number" name="" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $20 </span>
+                    </div>
+
+                </div>
+
+

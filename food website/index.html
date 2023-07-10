@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHub</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Swiper Slider CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&amp;family=Poppins:wght@100;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fas fa-truck"></i>FoodHub</a>
+
+        <nav class="navbar">
+            <a href="#home" style="color: #2e2c4a;">Home</a>
+            <a href="#About">About Us</a>
+            <a href="#Features">Features</a>
+            <a href="#Blog">Blog</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <div class="button">
+
+
+            <button id="shop-cart" class="btn"><i class="fas fa-shopping-cart"></i></button>
+            <button id="login-btn" class="btn">Order Now</button>
+            <button id="menu-btn" class="btn"><i class="fas fa-bars"></i></button>
+
+        </div>
+
+    </header>
+
+    <!-- header section End -->
+
+
+    <!-- Shopping cart section -->
+
+    <section class="cart-container">
+
+        <div class="product-container">
+
+
+            <h3 class="title">Your Products</h3>
+
+            <div class="box-container">
+
+                <!-- <div class="box">
+
+                    <i class="fas fa-times"></i>
+                    <img src="image/menu-1.png" alt="">
+                    <div class="content">
+                        <h3 class="cart_title">Veggie tagilatelle bolognese</h3>
+                        <span>quantity : </span>
+                        <input class="cart-quantity" type="number" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $19.8 </span>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <i class="fas fa-times"></i>
+                    <img src="image/menu-2.png" alt="">
+                    <div class="content">
+                        <h3 class="cart_title">Chicken with vegetabels</h3>
+                        <span>quantity : </span>
+                        <input class="cart-quantity" type="number" name="" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $2.99 </span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="cart-total">
+            <h3 class="title">Cart Total</h3>
+            <div class="box">
+                <h3 class="total"> total : <span>$00</span></h3>
+                <a href="#" class="btn pay"> Proceed To Pay</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Login user form -->
+
+    <section class="login-container">
+
+        <form action="">
+
+            <h3>login form</h3>
+            <input type="email" name="" placeholder="E-mail" class="box" required>
+            <input type="password" name="" placeholder="password" class="box" required>
+
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+
+            <input type="submit" value="Login now" class="btn">
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">Create a new one</a></p>
+
+        </form>
+
+    </section>
+
+
+
+    <!-- main section -->
+
+    <section class="home" id="home">
+
+        <div class="contentt">
+
+            <h3>We Provide Delivery Within 30 Min</h3>
+            <p>Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
+
+            <div class="row">
+                <form action="" class="content-form">
+                    <input type="text" placeholder="Enter Zip ode" class="content-input">
+                    <button type="button" class="content-btn">Discover
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+
+
+        <div class="image">
+            <img src="image/deliver-boy.png" alt="" class="home-img">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Foood setion -->
+
+    <section class="food">
+
+        <div class="head-content">
+            <h1 class="heading"> More Than 20,000 Dishesh To Order! </h1>
+            <p>Welcome to The Biggest Network of Food Ordering & Delivery</p>
+        </div>
+        <div class="swiper food-content">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <div class="boxxx">
+                        <div class="image">
+                            <img src="image/SUSHI.png" alt="">
+
+                        </div>
+                        <h3>SUSHI</h3>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="boxxx">
+                        <div class="image">
+                            <img src="image/DESSERTS.png" alt="">
+
+                        </div>
+                        <h3>DESSERT</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="boxxx">
+                        <div class="image">
+                            <img src="image/PASTA.png" alt="">
+
+                        </div>
+                        <h3>PASTA</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="boxxx">
+                        <div class="image">
+                            <img src="image/PIZZA.png" alt="">
+
+                        </div>
+                        <h3>PIZZA</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="boxxx">
+                        <div class="image">
+                            <img src="image/SALAD.png" alt="">
+
+                        </div>
+                        <h3>SALAD</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="boxxx">
+                        <div class="image">
+                            <img src="image/BURGERS.png" alt="">
+
+                        </div>
+                        <h3>BURGERS</h3>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="btn-arrow">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </section>
+
+    <!-- ============== -->
+    <!-- HOW TO ORDER -->
+    <!-- ================== -->
+    <section class="food">
+
+        <div class="head-content">
+            <h1 class=" heading"> How To Order ? </h1>
+            <p> Follow The Steps </p>
+        </div>
+
+        <div class="how-to-order">
+
+            <div class="order_box">
+                <div class="order_image">
+                    <img src="image/placeholder.png" alt="">
+                </div>
+                <h2>01</h2>
+                <p>Choose Your Location</p>
+            </div>
+
+            <div class="order_box">
+                <div class="order_image">
+                    <img src="image/restaurant.png" alt="">
+                </div>
+                <h2>02</h2>
+                <p>Choose Restaurant</p>
+            </div>
+
+            <div class="order_box">
+                <div class="order_image">
+                    <img src="image/food-delivery.png" alt="">
+                </div>
+                <h2>03</h2>
+                <p>Make Your Order</p>
+            </div>
+
+            <div class="order_box">
+                <div class="order_image">
+                    <img src="image/delivery-bike.png" alt="">
+                </div>
+                <h2>04</h2>
+                <p>Food is on the way</p>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <!-- ============= -->
+    <!-- POPULAR DISHES -->
+    <!-- ==============-->
+    <section class="menu_food">
+
+        <div class="head-content">
+            <h1 class="heading"> Popular dishes with delivery </h1>
+            <p>Welcome to The Biggest Network of Food Ordering & Delivery</p>
+        </div>
+
+        <div class="dish_slide">
+            <div class="dish_boxxx">
+                <div class="dish_image">
+                    <img src="image/pngegg.png"">
+            </div>
+            <div class=" p">
+                    <h3>Stewed cabbage with sauce</h3>
+                </div>
+                <div class="flex-container">
+                    <p>$5</p>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+
+
+            <div class=" dish_boxxx">
+                <div class="dish_image">
+                    <img src="image/Untitled-1.png" alt="">
+                </div>
+                <div class=" p">
+                    <h3>Puree Soup with turkee pieces</h3>
+                </div>
+                <div class="flex-container">
+                    <p>$3.22</p>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+
+
+            <div class="dish_boxxx">
+                <div class="dish_image">
+                    <img src="image/Untitled-2.png" alt="">
+                </div>
+                <div class=" p">
+                    <h3>Traditional greek salad</h3>
+                </div>
+                <div class="flex-container">
+                    <p>$8.63</p>
+                    <i class="fas fa-plus"></i>
+                </div>
+
+            </div>
+
+
+
+            <div class="dish_boxxx">
+                <div class="dish_image">
+                    <img src="image/Untitled-3.png" alt="">
+                </div>
+                <div class=" p">
+                    <h3>Sthree-Meat special lasagna</h3>
+                </div>
+                <div class="flex-container">
+                    <p>$7.63</p>
+                    <i class="fas fa-plus"></i>
+                </div>
+
+            </div>
+
+
+
+            <div class="dish_boxxx">
+                <div class="dish_image">
+                    <img src="image/Untitled-2.png" alt="">
+                </div>
+                <div class=" p">
+                    <h3>Chicken with vegetabels</h3>
+                </div>
+                <div class="flex-container">
+                    <p>$5.90</p>
+                    <i class="fas fa-plus"></i>
+                </div>
+
+            </div>
+
+
+
+            <div class="dish_boxxx">
+                <div class="dish_image">
+                    <img src="image/pngegg.png" alt="">
+                </div>
+                <div class="p">
+                    <h3>Veggie tagilatelle bolognese</h3>
+                </div>
+                <div class="flex-container">
+                    <p>$5.63</p>
+                    <i class="fas fa-plus"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <button type="button" class="content-btn1">See All Menu
+            <span class="menu_c">
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </button>
+    </section>
+
+    <!-- ================= -->
+    <!-- diet -->
+    <!-- ========================= -->
+    <section class="home" id="home">
+
+
+        <div class="image">
+            <img src="image/shef.png" alt="" class="home-img">
+
+        </div>
+
+        <div class="contentt">
+
+            <h3 style="font-size: 3.5rem;">Delicious and healthy food for your body</h3>
+            <p style="font-size: 1.5rem;">Our company is engaged in the delivery of healthy and tasty food around the
+                city. Special cooking and delivery technologies allow you to buy fresh and healthy food.</p>
+
+            <div class="diet_info">
+                <div class="flex-item-left">
+                    <p> Order a nutritionist
+                        consultation</p>
+                </div>
+                <div class="flex-item-right">
+                    <p>Order healthy food express delivery</p>
+                </div>
+            </div>
+            <div class="diet_info">
+                <div class="flex-item-left">
+                    <p>Order a nutritionist consultation</p>
+                </div>
+                <div class="flex-item-right">
+                    <p>Order healthy food express delivery</p>
+                </div>
+            </div>
+
+            <button type="button" class="content-btn1">CHOOSE A DIET</button>
+            <button type="button" class="content-btn2">WHAT'S NEW ?</button>
+
+        </div>
+
+
+
+
+    </section>
+
+    <!-- =========== -->
+    <!-- App -->
+    <!-- ================= -->
+
+    <section class="home" id="home">
+
+
+
+
+        <div class="contentt">
+
+            <h3 style="font-size: 3.5rem;">Make The Delicious Food and Order Our App</h3>
+            <p style="font-size: 1.5rem;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati repellat
+                similique fugiat praesentium ullam quibusdam provident dolores quod beatae dolorem.</p>
+
+            <p style="font-weight: 500; color: #1660E6;"> Follow
+                Delivery Status</p>
+            <p style="font-weight: 500;color: #1660E6;"> Order From Any Location</p>
+
+            <button type="button" class="content-btn1">APP STORE <i class="fas fa-arrow-right"></i></button>
+            <button type="button" class="content-btn1">GOOGLE PLAY <i class="fas fa-arrow-right"></i></button>
+
+        </div>
+        <div class="image">
+            <img src="image/app.png" alt="" class="home-img" style="max-width: 380px;">
+
+        </div>
+
+    </section>
+
+
+
+    <section class="footer">
+
+        <div class="container">
+            <div class="first_div">
+                <div class="newsLetter">
+                    <div class="para">
+                        <h2>Subscribe to our newsletter</h2>
+                        <h3>Never Miss Anything From 8bitcode By Signing Up To Our Newsletter.</h3>
+                    </div>
+                    <div class="email">
+                        <input type="email" placeholder="ENTER YOUR EMAIL" required>
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="intro">
+
+                        <a href="#" class="logo"><i class="fas fa-truck"></i>FoodHub</a>
+                        <div class="content_info pad">
+                            <p>Today we can tell you, thanks to your passion, hard work creativity, and expertise, you
+                                delivered us the most beautiful house great looks.</p>
+                        </div>
+                        <div class="icons pad">
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <h2>Contact Us</h2>
+                        <p>34/7 Liverpool Street, Suite 636, London, United Kingdom</p>
+                        <p>8bitcode@gmail.com</p>
+                        <p>(+91) 012-3456-789</p>
+                        <p>(+91) 146-6543-480</p>
+                    </div>
+                    <div class="links">
+                        <h2>Useful Links</h2>
+                        <p>About</p>
+                        <p>Projects</p>
+                        <p>Blog</p>
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second_div">
+                <h3>© 2023 Your Company. Designed By 8bitcode.</h3>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- swiper js link -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
